@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @ClassName CircleArrayQueueDemo
  * @description 用数组的方式实现环形队列，相对于一般队列较难，习惯取模
  * @create 2020-08-18 15:05
- * @Version 1.0
+ * @Version 1.1
  */
 public class CircleArrayQueueDemo {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class CircleArrayQueueDemo {
         }
     }
 }
-
+//循环队列定义
 class CircleArray {
     private int maxSize;//数组的最大容量
     private int front;//front指向队列第一个元素 初始值front=0
