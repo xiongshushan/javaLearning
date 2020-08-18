@@ -8,6 +8,7 @@ import java.util.Scanner;
  * @description 用数组存储方式实现队列
  * @create 2020-08-18 14:33
  * @Version 1.0
+ *
  */
 public class ArrayQueueDemo {
     public static void main(String[] args) {

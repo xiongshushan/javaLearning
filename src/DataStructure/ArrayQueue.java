@@ -8,6 +8,7 @@ import org.junit.Test;
  * @description TODO
  * @create 2020-08-18 14:14
  * @Version 1.0
+ *
  */
 public class ArrayQueue {
     private int maxSize;
