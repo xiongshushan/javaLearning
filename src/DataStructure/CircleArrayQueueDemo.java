@@ -10,6 +10,7 @@ import java.util.Scanner;
  * @create 2020-08-18 15:05
  * @Version 1.1
  */
+
 public class CircleArrayQueueDemo {
     public static void main(String[] args) {
         System.out.println("测试数组模拟环形队列的案例");
@@ -67,6 +68,7 @@ class CircleArray {
     private int front;//front指向队列第一个元素 初始值front=0
     private int rear;//rear指向队列的倒数第二个元素，第一个预留
     private int[] arr;//用于存放数据
+
 
     //构造器
     public CircleArray(int arrMaxSize) {
