@@ -118,6 +118,7 @@ class CircleArray {
         }
     }
 
+
     //    判断队列的有效个数
     public int size() {
         return (rear + maxSize - front) % maxSize;
